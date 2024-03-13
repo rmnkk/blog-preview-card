@@ -1,3 +1,23 @@
+:root {
+  --black: #111111;
+  --yellow: #f4d04e;
+  --grey: #7f7f7f;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./fonts/Figtree-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Figtree';
+  font-weight: 800;
+  font-style: normal;
+  src: url('./fonts/Figtree-ExtraBold.ttf') format('truetype');
+}
+
 *,
 *::before,
 *::after {
@@ -12,6 +32,7 @@ body {
     color 0.5s,
     background-color 0.5s;
   font-family:
+    'Figtree',
     Inter,
     -apple-system,
     BlinkMacSystemFont,
